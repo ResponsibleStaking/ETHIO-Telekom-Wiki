@@ -30,7 +30,7 @@ Filesystem                         Size  Used Avail Use% Mounted on
 /dev/sda4                           79G  9.1G   66G  13% /opt
 tmpfs                              798M     0  798M   0% /run/user/1001
 ```
-Lsbld shows more available space. Only 19G of are mounted but 100G available. the 19G for the lvm drive are only used with 3.9G
+Lsblk shows more available space. Only 19G of are mounted but 100G available. the 19G for the lvm drive are only used with 3.9G
 ```
 $ lsblk
 NAME                      MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
