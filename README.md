@@ -12,7 +12,7 @@ ping: unknown host www.google.com
 ### Solution
 [https://askubuntu.com/questions/1012641/dns-set-to-systemds-127-0-0-53-how-to-change-permanently/1083843#1083843]
 ```
-$ cat /etc/systemd/resolved.conf
+$ nano /etc/systemd/resolved.conf
 <...>
 [Resolve]
 DNS=8.8.8.8 8.8.4.4
